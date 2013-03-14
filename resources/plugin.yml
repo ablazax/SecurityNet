@@ -1,0 +1,18 @@
+name: SecurityNet
+main: me.menexia.securitynet.SecurityNet
+version: 0.1.0a
+description: Modern, Strategic, Economic Warfare
+author: MeneXia (Xavi Ablaza)
+website: https://docs.google.com/document/d/1qLrUS7m5oYMSvTRG7FzaZI8GX35fz5KAsDRwQBpBNdM/edit?usp=sharing
+depend: [Vault]
+prefix: SN
+commands:
+    clear:
+        description: Use /clear -a, /clear -s, or /clear to clear all of the inventory, a single slot, and the upper inventory respectively.
+        usage: <command>
+permissions:
+    securitynet.*:
+        description: All the permissions for OverSeer.
+        default: op
+        children:
+            foo.bar: true
