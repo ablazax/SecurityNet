@@ -11,7 +11,6 @@ import java.util.logging.Logger;
 import net.milkbowl.vault.economy.Economy;
 
 import org.bukkit.plugin.java.JavaPlugin;
-import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.conversations.ConversationFactory;
 import org.bukkit.plugin.RegisteredServiceProvider;
 
